@@ -129,38 +129,23 @@ d'accepter de vrais paiements.
 
 ---
 
-## 5. Comment mettre le site en ligne (obtenir une URL)
+## 5. Le site est en ligne
 
-Le code est prêt et poussé sur la branche `claude/raf-shop-handover-ooxu4n`
-du dépôt GitHub. 🔴 **La mise en ligne elle-même nécessite votre compte** —
-je n'ai pas pu la faire moi-même car aucun compte d'hébergement ne
-m'a été fourni dans cet environnement.
+✅ **URL publique de démonstration : https://raf-shop-gamma.vercel.app**
 
-**Étapes (aucune compétence technique requise, 5 minutes) :**
+Déployé sur Vercel (projet `raf-shop`, compte `chieckjabou-dels-projects`),
+branché sur la branche `claude/raf-shop-handover-ooxu4n` du dépôt GitHub.
+Chaque nouveau `git push` sur cette branche redéploie automatiquement le
+site — aucune action manuelle n'est nécessaire pour les mises à jour
+futures tant que le code est poussé sur cette branche.
 
-1. Allez sur [vercel.com](https://vercel.com) et créez un compte (gratuit),
-   en vous connectant avec le même compte GitHub que celui qui héberge le
-   dépôt `Raf-shop-`.
-2. Cliquez sur « Add New » → « Project ».
-3. Sélectionnez le dépôt `Raf-shop-` (chieckjabou-del/Raf-shop-).
-4. Vercel détecte automatiquement qu'il s'agit d'un projet Next.js —
-   laissez les réglages par défaut.
-5. Avant de cliquer sur « Deploy », ouvrez « Environment Variables » et
-   ajoutez au minimum :
-   - `NEXT_PUBLIC_SITE_URL` = l'URL que Vercel va vous attribuer (vous
-     pouvez la mettre à jour après le premier déploiement si besoin)
-   - Les autres variables (`MOLLIE_API_KEY`, `RESEND_API_KEY`, etc.) sont
-     optionnelles : sans elles, le site fonctionne en mode démonstration
-     transparent.
-6. Cliquez sur « Deploy ». Après 1 à 2 minutes, Vercel vous donne une URL
-   du type `raf-shop-xxxx.vercel.app` — c'est votre démonstration en ligne.
-7. Sélectionnez la branche `claude/raf-shop-handover-ooxu4n` comme branche
-   à déployer si Vercel ne la propose pas par défaut (paramètres du
-   projet → Git → Production Branch).
+Le site utilise automatiquement son URL de déploiement Vercel pour le
+SEO, l'image de partage et le sitemap — vous n'avez rien à configurer
+pour la démonstration. `NEXT_PUBLIC_SITE_URL` ne devient utile que le
+jour où un nom de domaine personnalisé (ex. rafshop.fr) est branché.
 
-Une fois cela fait, dites-le-moi : je pourrai vérifier le site en ligne
-depuis un navigateur réel et vous confirmer que tout fonctionne, ou
-corriger tout problème constaté.
+Pour brancher un nom de domaine personnalisé plus tard : tableau de bord
+Vercel → projet `raf-shop` → Settings → Domains.
 
 ---
 
@@ -210,15 +195,11 @@ démonstration, qui est prête dès maintenant) :
 
 ## 8. Questions fréquentes
 
-**« Le site a l'air complet, pourquoi n'est-il pas déjà en ligne ? »**
-Parce que la mise en ligne nécessite un compte d'hébergement (Vercel) qui
-vous appartient — c'est une action que vous seule pouvez autoriser et
-créer, comme un compte bancaire.
-
 **« Est-ce que je peux montrer ce site à la cliente maintenant ? »**
-Une fois l'étape 5 faite (5 minutes), oui : le site donnera une impression
-professionnelle complète, avec panier fonctionnel, tant que vous précisez
-que le catalogue et le paiement sont en mode démonstration.
+Oui : le site est en ligne à l'adresse https://raf-shop-gamma.vercel.app,
+donne une impression professionnelle complète, avec panier fonctionnel.
+Précisez simplement à la cliente que le catalogue et le paiement sont en
+mode démonstration.
 
 **« Qui a écrit les CGV et mentions légales ? »**
 Une IA, à partir des obligations légales françaises standards

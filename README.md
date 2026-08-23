@@ -3,6 +3,9 @@
 Application e-commerce RAF Shop — sélection de gadgets technologiques.
 Next.js 16 (App Router) + TypeScript + Tailwind CSS 4.
 
+🌐 **Démo en ligne : https://raf-shop-gamma.vercel.app**
+(déploiement automatique à chaque push sur `claude/raf-shop-handover-ooxu4n`)
+
 ⚠️ **État actuel : démonstration.** Le catalogue produit est fictif (voir
 `lib/products.ts`), et le paiement/l'envoi d'e-mail ne sont pas connectés
 (aucun identifiant fourni). Voir `GUIDE_DE_LANCEMENT.md` pour la marche à
