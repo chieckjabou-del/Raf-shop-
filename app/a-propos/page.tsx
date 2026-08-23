@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 
@@ -27,9 +28,9 @@ export default function AboutPage() {
             sans les avoir vues. Ce n&apos;est pas non plus une boutique mono-marque. C&apos;est
             une sélection restreinte, choisie selon des critères assumés — détaillés sur notre
             page{" "}
-            <a href="/notre-methode" className="text-accent hover:text-accent-hover">
+            <Link href="/notre-methode" className="text-accent hover:text-accent-hover">
               Notre méthode de sélection
-            </a>
+            </Link>
             .
           </p>
         </section>
