@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/*
+  RAF Shop — identité de marque volontairement engagée en dark mode unique
+  (noir profond + bleu électrique), pas adaptative au thème système.
+  Décision documentée dans GUIDE_DE_LANCEMENT.md.
+*/
+:root {
+  --background: #05060a;
+  --surface: #0c0e14;
+  --surface-2: #12151d;
+  --border: #232838;
+  --foreground: #f3f5f9;
+  --muted: #a6afc0;
+  --accent: #2b6bff;
+  --accent-hover: #4c82ff;
+  --accent-foreground: #ffffff;
+  --accent-soft: #132140;
+  --success: #34d399;
+  --danger: #f87171;
+  --warning: #fbbf24;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent-soft: var(--accent-soft);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+  --color-warning: var(--warning);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-foreground);
+}
