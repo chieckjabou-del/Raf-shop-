@@ -1,24 +1,25 @@
 @import "tailwindcss";
 
 /*
-  RAF Shop — identité de marque volontairement engagée en dark mode unique
-  (noir profond + bleu électrique), pas adaptative au thème système.
-  Décision documentée dans GUIDE_DE_LANCEMENT.md.
+  RAF Shop — identité de marque : clair, chaleureux, terracotta/orange —
+  inspirée d'une référence fournie par la cliente (esthétique app
+  marketplace type Vinted). Remplace la précédente direction "noir
+  profond + bleu électrique". Décision documentée dans GUIDE_DE_LANCEMENT.md.
 */
 :root {
-  --background: #05060a;
-  --surface: #0c0e14;
-  --surface-2: #12151d;
-  --border: #232838;
-  --foreground: #f3f5f9;
-  --muted: #a6afc0;
-  --accent: #2b6bff;
-  --accent-hover: #4c82ff;
+  --background: #fbf8f5;
+  --surface: #ffffff;
+  --surface-2: #f1ebe3;
+  --border: #e8e1d8;
+  --foreground: #1b2430;
+  --muted: #78716c;
+  --accent: #c2410c;
+  --accent-hover: #a83a0a;
   --accent-foreground: #ffffff;
-  --accent-soft: #132140;
-  --success: #34d399;
-  --danger: #f87171;
-  --warning: #fbbf24;
+  --accent-soft: #fbeae0;
+  --success: #16a34a;
+  --danger: #dc2626;
+  --warning: #d97706;
 }
 
 @theme inline {
@@ -40,7 +41,7 @@
 }
 
 html {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 body {

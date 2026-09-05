@@ -41,30 +41,22 @@ export function ProductVisual({
         className,
       )}
       style={{
-        background: `radial-gradient(120% 120% at 20% 15%, ${accent}33 0%, transparent 60%), linear-gradient(160deg, #0c0e14 0%, #05060a 100%)`,
+        background: `radial-gradient(120% 120% at 20% 15%, ${accent}1f 0%, transparent 60%), linear-gradient(160deg, #ffffff 0%, #fbf8f5 100%)`,
       }}
       aria-hidden="true"
     >
-      <div
-        className="absolute inset-0 opacity-[0.07]"
-        style={{
-          backgroundImage:
-            "linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)",
-          backgroundSize: "28px 28px",
-        }}
-      />
       <div
         className="flex items-center justify-center rounded-full border"
         style={{
           width: iconSize * 1.9,
           height: iconSize * 1.9,
-          borderColor: `${accent}55`,
-          background: `${accent}1a`,
+          borderColor: `${accent}40`,
+          background: `${accent}17`,
         }}
       >
         <Icon size={iconSize} color={accent} strokeWidth={1.4} />
       </div>
-      <span className="absolute right-3 top-3 rounded-full border border-warning/40 bg-warning/10 px-2 py-0.5 text-[10px] font-semibold tracking-wide text-warning">
+      <span className="absolute right-3 top-3 rounded-full bg-foreground px-2 py-0.5 text-[10px] font-semibold tracking-wide text-background">
         DEMO
       </span>
     </div>

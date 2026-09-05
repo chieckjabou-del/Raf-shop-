@@ -7,12 +7,15 @@ export function Badge({
 }: {
   children: React.ReactNode;
   className?: string;
-  tone?: "neutral" | "accent" | "warning";
+  tone?: "neutral" | "accent" | "warning" | "demo";
 }) {
   const tones = {
     neutral: "bg-surface-2 text-muted border-border",
     accent: "bg-accent-soft text-accent border-accent/30",
     warning: "bg-warning/10 text-warning border-warning/30",
+    // Volontairement distinct de "accent" (orange de marque) pour qu'un
+    // badge DEMO ne soit jamais confondu avec un badge promotionnel.
+    demo: "bg-foreground text-background border-transparent",
   } as const;
 
   return (
@@ -31,7 +34,7 @@ export function Badge({
 /** Explicit "démonstration" marker for mock catalog data — never remove without real supplier data. */
 export function DemoBadge({ className }: { className?: string }) {
   return (
-    <Badge tone="warning" className={className}>
+    <Badge tone="demo" className={className}>
       DEMO — produit fictif
     </Badge>
   );

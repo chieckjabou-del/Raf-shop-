@@ -14,15 +14,15 @@ export default function OpengraphImage() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          background: "linear-gradient(160deg, #0c0e14 0%, #05060a 100%)",
-          color: "#f3f5f9",
+          background: "linear-gradient(160deg, #ffffff 0%, #fbf8f5 100%)",
+          color: "#1b2430",
           fontFamily: "sans-serif",
         }}
       >
         <div style={{ display: "flex", fontSize: 84, fontWeight: 700, letterSpacing: -2 }}>
-          RAF <span style={{ color: "#2b6bff", marginLeft: 20 }}>SHOP</span>
+          RAF <span style={{ color: "#c2410c", marginLeft: 20 }}>SHOP</span>
         </div>
-        <div style={{ display: "flex", marginTop: 24, fontSize: 32, color: "#a6afc0" }}>
+        <div style={{ display: "flex", marginTop: 24, fontSize: 32, color: "#78716c" }}>
           La sélection technologique de confiance
         </div>
       </div>

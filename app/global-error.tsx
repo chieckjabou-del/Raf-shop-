@@ -22,8 +22,8 @@ export default function GlobalError({
     <html lang="fr">
       <body
         style={{
-          background: "#05060a",
-          color: "#f3f5f9",
+          background: "#fbf8f5",
+          color: "#1b2430",
           fontFamily: "system-ui, sans-serif",
           display: "flex",
           minHeight: "100vh",
@@ -36,13 +36,13 @@ export default function GlobalError({
         }}
       >
         <h1 style={{ fontSize: "1.5rem", fontWeight: 600 }}>RAF Shop est momentanément indisponible</h1>
-        <p style={{ color: "#a6afc0", maxWidth: "28rem" }}>
+        <p style={{ color: "#78716c", maxWidth: "28rem" }}>
           Une erreur critique est survenue. Merci de réessayer dans quelques instants.
         </p>
         <button
           onClick={reset}
           style={{
-            background: "#2b6bff",
+            background: "#c2410c",
             color: "#fff",
             border: "none",
             borderRadius: "999px",
