@@ -10,12 +10,12 @@ const FAQ_ITEMS = [
   {
     question: "Où livrez-vous ?",
     answer:
-      "Nous livrons en France métropolitaine, par Colissimo ou en point relais. Une extension européenne est envisagée mais pas encore active.",
+      "Nous livrons en France métropolitaine. Chaque produit est expédié directement par le fournisseur partenaire qui le propose : le transporteur peut donc varier d'un produit à l'autre. Une extension européenne est envisagée mais pas encore active.",
   },
   {
     question: "Quels sont les délais et frais de livraison ?",
     answer:
-      "Les frais de livraison standard sont indiqués au récapitulatif de commande (livraison offerte au-delà de 60 € d'achat sur cette démonstration). Les délais réels seront confirmés une fois le fournisseur logistique définitif choisi.",
+      "Les frais de livraison standard sont indiqués au récapitulatif de commande (livraison offerte au-delà de 60 € d'achat sur cette démonstration). Les délais dépendent du fournisseur qui expédie chaque produit et seront précisés sur la fiche produit une fois les fournisseurs définitifs confirmés.",
   },
   {
     question: "Puis-je changer d'avis après ma commande ?",

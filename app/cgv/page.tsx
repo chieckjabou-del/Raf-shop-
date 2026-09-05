@@ -22,7 +22,7 @@ const SECTIONS = [
   },
   {
     title: "4. Livraison",
-    body: "Livraison en France métropolitaine par Colissimo ou en point relais. Les délais indicatifs seront précisés sur chaque fiche produit une fois le fournisseur réel confirmé. [À COMPLÉTER : délais réels, frais de port définitifs].",
+    body: "RAF Shop fait appel à des fournisseurs partenaires qui expédient directement chaque produit au client. Le transporteur et le délai d'expédition peuvent donc varier d'un produit à l'autre ; ces informations seront précisées sur chaque fiche produit une fois les fournisseurs définitifs confirmés. Conformément à l'article L.216-1 du Code de la consommation, RAF Shop reste responsable envers le client de la bonne exécution de la livraison, y compris lorsque celle-ci est assurée par un fournisseur tiers. [À COMPLÉTER : délais réels, frais de port définitifs, zones couvertes par fournisseur].",
   },
   {
     title: "5. Droit de rétractation",

@@ -27,8 +27,8 @@ const VALUE_PROPS = [
   },
   {
     icon: Truck,
-    title: "Livraison suivie",
-    description: "Livraison en France par Colissimo ou point relais, avec numéro de suivi.",
+    title: "Expédition directe fournisseur",
+    description: "Chaque produit est expédié directement par notre fournisseur partenaire, avec numéro de suivi.",
   },
 ];
 

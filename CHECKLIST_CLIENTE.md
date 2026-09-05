@@ -18,21 +18,22 @@ actuelle en boutique réellement opérationnelle. Organisée par priorité.
       photo principale par produit)
 - [ ] Description et caractéristiques techniques précises
 - [ ] Prix de vente TTC
-- [ ] Fournisseur / source d'approvisionnement
-- [ ] Modèle logistique par produit : stock propre chez RAF Shop, ou
-      fulfillment par le fournisseur, ou dropshipping
-- [ ] Quantité en stock (si stock propre)
+- [ ] Fournisseur retenu (négocié directement par vous) — RAF Shop paie ce
+      fournisseur pour chaque commande, il expédie directement au client
+- [ ] Transporteur et délai d'expédition utilisés par ce fournisseur
 - [ ] Garantie constructeur éventuelle, en plus de la garantie légale
 - [ ] Éco-participation applicable (obligatoire pour les produits
       électroniques — voir REP/DEEE dans `app/retours-garanties`)
 
 ## Politique commerciale
 
-- [ ] Politique de livraison définitive : zones couvertes, délais, tarifs,
-      transporteur(s) retenu(s) (Colissimo et point relais envisagés dans
-      la démonstration actuelle)
-- [ ] Politique de retour définitive : qui prend en charge les frais de
-      retour, adresse de retour, délai de remboursement
+- [ ] Coordonnées et modalités de paiement de chaque fournisseur (RAF Shop
+      les paie directement — ce n'est pas le client final qui les paie)
+- [ ] Politique de livraison par fournisseur : zones couvertes, délais,
+      transporteur — chaque fournisseur gère sa propre expédition
+- [ ] Politique de retour par fournisseur : qui prend en charge les frais
+      de retour, adresse de retour, délai de remboursement — RAF Shop reste
+      l'interlocuteur du client, mais coordonne avec le fournisseur
 - [ ] Seuil de livraison offerte (60 € utilisé comme hypothèse dans la
       démonstration — à confirmer)
 

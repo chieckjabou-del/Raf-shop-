@@ -9,6 +9,32 @@ Légende utilisée dans ce document :
 
 ---
 
+## 0. Modèle commercial confirmé (mise à jour)
+
+✅ **Décision de la cliente** : RAF Shop fonctionne en dropshipping pur.
+Concrètement :
+
+1. La cliente négocie directement avec chaque fournisseur.
+2. Le fournisseur expédie directement au client final — **RAF Shop ne
+   gère aucun stock ni aucune livraison**.
+3. Le rôle de RAF Shop se limite à : collecter le paiement du client sur
+   le site, **payer le fournisseur** pour le coût du produit, et faire la
+   **publicité/marketing** de la boutique.
+
+Le site a été mis à jour en conséquence : les mentions « livraison
+Colissimo / point relais » ont été remplacées par « expédié par notre
+fournisseur partenaire » partout où elles apparaissaient (fiche produit,
+accueil, checkout, FAQ, CGV, retours & garanties).
+
+⚠️ **Point légal à noter** (déjà ajouté dans les CGV, à faire valider par
+un juriste) : même si un fournisseur tiers expédie physiquement le
+produit, RAF Shop reste, vis-à-vis du client final, le vendeur
+responsable de la bonne exécution de la commande (article L.216-1 du
+Code de la consommation). Le dropshipping ne transfère pas cette
+responsabilité au fournisseur.
+
+---
+
 ## 1. Ce qui est prêt aujourd'hui
 
 ✅ Un site e-commerce complet et fonctionnel : accueil, boutique avec

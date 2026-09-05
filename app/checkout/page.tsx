@@ -161,7 +161,8 @@ export default function CheckoutPage() {
             {submitting ? "Traitement…" : `Payer ${formatPrice(total)}`}
           </Button>
           <p className="text-xs text-muted">
-            France uniquement pour le moment. Livraison par Colissimo ou point relais.
+            France uniquement pour le moment. Chaque produit est expédié directement par le
+            fournisseur partenaire.
           </p>
         </form>
 

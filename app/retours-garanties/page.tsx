@@ -68,9 +68,12 @@ export default function RetoursGarantiesPage() {
         <section>
           <h2 className="text-base font-semibold text-foreground">Comment retourner un produit</h2>
           <p className="mt-2">
-            Contactez-nous via la page Contact en indiquant votre numéro de commande. [À
-            COMPLÉTER une fois le processus logistique de retour défini avec le transporteur ou
-            le fournisseur.]
+            Contactez-nous via la page Contact en indiquant votre numéro de commande. Chaque
+            produit étant expédié directement par un fournisseur partenaire, l&apos;adresse et
+            la procédure de retour peuvent varier d&apos;un produit à l&apos;autre — RAF Shop
+            reste votre interlocuteur unique et se charge de coordonner le retour avec le
+            fournisseur concerné. [À COMPLÉTER une fois le processus de retour défini avec
+            chaque fournisseur.]
           </p>
         </section>
       </div>

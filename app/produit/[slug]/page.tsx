@@ -155,7 +155,7 @@ export default async function ProductPage({
             </div>
             <div className="flex items-center gap-2">
               <Truck size={16} className="shrink-0 text-accent" aria-hidden="true" />
-              Livraison Colissimo / point relais
+              Expédié par notre fournisseur partenaire
             </div>
             <div className="flex items-center gap-2">
               <RotateCcw size={16} className="shrink-0 text-accent" aria-hidden="true" />
