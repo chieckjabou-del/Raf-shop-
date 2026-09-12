@@ -10,11 +10,11 @@ export const metadata: Metadata = {
 const SECTIONS = [
   {
     title: "1. Champ d'application",
-    body: "Les présentes conditions générales de vente (CGV) régissent les ventes de produits réalisées par RAF Shop auprès de consommateurs résidant en France métropolitaine. [À COMPLÉTER : zones de livraison définitives, DOM-TOM inclus ou non].",
+    body: "Les présentes conditions générales de vente (CGV) régissent les ventes de produits réalisées par RAF Shop. Le pays de livraison disponible dépend du fournisseur qui expédie chaque produit et sera indiqué sur la fiche produit. [À COMPLÉTER : liste précise des pays couverts une fois les fournisseurs définitifs confirmés].",
   },
   {
     title: "2. Produits et prix",
-    body: "Les produits sont présentés avec leurs caractéristiques essentielles. Les prix sont indiqués en euros, toutes taxes comprises (TVA française applicable). RAF Shop se réserve le droit de modifier ses prix à tout moment ; les produits sont facturés sur la base des tarifs en vigueur au moment de la validation de la commande.",
+    body: "Les produits sont présentés avec leurs caractéristiques essentielles. Les prix sont indiqués en euros. RAF Shop se réserve le droit de modifier ses prix à tout moment ; les produits sont facturés sur la base des tarifs en vigueur au moment de la validation de la commande. [À COMPLÉTER : régime de TVA applicable selon le pays de livraison du client, à valider avec un expert-comptable une fois les zones de livraison internationales confirmées].",
   },
   {
     title: "3. Commande et paiement",

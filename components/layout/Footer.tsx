@@ -65,7 +65,7 @@ export function Footer() {
       <div className="border-t border-border">
         <Container className="flex flex-col gap-2 py-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
           <p>© {year} RAF Shop. Tous droits réservés.</p>
-          <p>Catalogue de démonstration — France uniquement pour le moment.</p>
+          <p>Catalogue de démonstration — livraison selon le fournisseur de chaque produit.</p>
         </Container>
       </div>
     </footer>

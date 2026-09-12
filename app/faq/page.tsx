@@ -10,12 +10,12 @@ const FAQ_ITEMS = [
   {
     question: "Où livrez-vous ?",
     answer:
-      "Nous livrons en France métropolitaine. Chaque produit est expédié directement par le fournisseur partenaire qui le propose : le transporteur peut donc varier d'un produit à l'autre. Une extension européenne est envisagée mais pas encore active.",
+      "Chaque produit est expédié directement par le fournisseur partenaire qui le propose, ce qui permet de livrer au-delà de la France selon les produits. Le pays de livraison disponible pour chaque produit sera précisé sur sa fiche une fois les fournisseurs définitifs confirmés.",
   },
   {
     question: "Quels sont les délais et frais de livraison ?",
     answer:
-      "Les frais de livraison standard sont indiqués au récapitulatif de commande (livraison offerte au-delà de 60 € d'achat sur cette démonstration). Les délais dépendent du fournisseur qui expédie chaque produit et seront précisés sur la fiche produit une fois les fournisseurs définitifs confirmés.",
+      "Les frais de livraison standard sont indiqués au récapitulatif de commande (livraison offerte au-delà de 60 € d'achat sur cette démonstration). Les délais et frais réels dépendent du fournisseur et du pays de destination ; ils seront précisés sur la fiche produit une fois les fournisseurs définitifs confirmés.",
   },
   {
     question: "Puis-je changer d'avis après ma commande ?",

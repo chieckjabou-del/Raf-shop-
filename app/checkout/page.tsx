@@ -161,8 +161,8 @@ export default function CheckoutPage() {
             {submitting ? "Traitement…" : `Payer ${formatPrice(total)}`}
           </Button>
           <p className="text-xs text-muted">
-            France uniquement pour le moment. Chaque produit est expédié directement par le
-            fournisseur partenaire.
+            Chaque produit est expédié directement par le fournisseur partenaire ; le pays de
+            livraison disponible dépend du produit choisi.
           </p>
         </form>
 
