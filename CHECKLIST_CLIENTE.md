@@ -16,10 +16,12 @@ actuelle en boutique réellement opérationnelle. Organisée par priorité.
 - [ ] Nom du produit
 - [ ] Photos (plusieurs angles, fond neutre de préférence — au minimum une
       photo principale par produit)
+- [x] Compte fournisseur CJdropshipping créé (`Agshop200@gmail.com`) —
+      25/10/2026. Prochaine étape : choisir les produits réels dans le
+      catalogue et transmettre capture d'écran + lien + prix fournisseur
+      pour chacun (voir GUIDE_DE_LANCEMENT.md).
 - [ ] Description et caractéristiques techniques précises
 - [ ] Prix de vente TTC
-- [ ] Fournisseur retenu (négocié directement par vous) — RAF Shop paie ce
-      fournisseur pour chaque commande, il expédie directement au client
 - [ ] Transporteur et délai d'expédition utilisés par ce fournisseur
 - [ ] Garantie constructeur éventuelle, en plus de la garantie légale
 - [ ] Éco-participation applicable (obligatoire pour les produits
