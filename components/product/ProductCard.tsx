@@ -13,6 +13,8 @@ export function ProductCard({ product }: { product: Product }) {
       <ProductVisual
         category={product.category}
         accent={product.accent}
+        image={product.image}
+        alt={product.name}
         className="aspect-square w-full"
         iconSize={48}
       />

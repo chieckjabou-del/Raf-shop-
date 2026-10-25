@@ -61,6 +61,8 @@ export default function CartPage() {
                   <ProductVisual
                     category={product?.category ?? "productivite"}
                     accent={item.accent}
+                    image={product?.image}
+                    alt={item.name}
                     className="h-20 w-20"
                     iconSize={26}
                   />

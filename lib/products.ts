@@ -9,10 +9,11 @@ import type { Product } from "./types";
  * 23/10/2026, 1 USD ≈ 0,89 EUR) puis majorés d'une marge proposée par
  * défaut — à ajuster librement, voir GUIDE_DE_LANCEMENT.md section 3.
  *
- * ⚠️ VISUELS : aucune vraie photo produit n'est encore disponible (voir
- * ProductVisual.tsx) — tant que ce n'est pas corrigé, chaque fiche
- * affiche un visuel générique avec la mention "Photo à venir", jamais
- * présenté comme une photo définitive.
+ * ⚠️ VISUELS : vignette fournisseur réelle mais basse résolution (recadrée
+ * depuis une capture d'écran du catalogue CJdropshipping) — pas encore de
+ * vraie photo produit haute définition. Voir ProductVisual.tsx : le badge
+ * "Aperçu fournisseur" l'indique sur chaque fiche tant que ce n'est pas
+ * remplacé par un visuel définitif.
  *
  * ⚠️ CARACTÉRISTIQUES : seules les informations confirmées par le titre
  * de la fiche fournisseur sont indiquées. Les caractéristiques
@@ -42,6 +43,7 @@ export const products: Product[] = [
     ],
     inStock: true,
     accent: "#2b6bff",
+    image: "/produits/chargeur-voyage-3-en-1.jpg",
   },
   {
     slug: "enceinte-portable-etanche",
@@ -64,6 +66,7 @@ export const products: Product[] = [
     ],
     inStock: true,
     accent: "#1e9bff",
+    image: "/produits/enceinte-portable-etanche.jpg",
   },
   {
     slug: "lampe-bureau-chargeur-induction",
@@ -86,6 +89,7 @@ export const products: Product[] = [
     ],
     inStock: true,
     accent: "#2b6bff",
+    image: "/produits/lampe-bureau-chargeur-induction.jpg",
   },
   {
     slug: "trepied-flexible-smartphone",
@@ -108,6 +112,7 @@ export const products: Product[] = [
     ],
     inStock: true,
     accent: "#7c5cff",
+    image: "/produits/trepied-flexible-smartphone.jpg",
   },
   {
     slug: "clavier-mecanique-compact",
@@ -134,6 +139,7 @@ export const products: Product[] = [
     ],
     inStock: true,
     accent: "#2b6bff",
+    image: "/produits/clavier-mecanique-compact.jpg",
   },
   {
     slug: "purificateur-air-portable",
@@ -156,6 +162,7 @@ export const products: Product[] = [
     ],
     inStock: true,
     accent: "#22c1c3",
+    image: "/produits/purificateur-air-portable.jpg",
   },
   {
     slug: "casque-reduction-bruit",
@@ -179,6 +186,7 @@ export const products: Product[] = [
     ],
     inStock: true,
     accent: "#7c5cff",
+    image: "/produits/casque-reduction-bruit.jpg",
   },
   {
     slug: "mini-projecteur-portable",
@@ -202,6 +210,7 @@ export const products: Product[] = [
     ],
     inStock: true,
     accent: "#1e9bff",
+    image: "/produits/mini-projecteur-portable.jpg",
   },
 ];
 

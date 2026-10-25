@@ -23,6 +23,12 @@ export interface Product {
   highlights: string[];
   inStock: boolean;
   accent: string;
+  /**
+   * Chemin dans /public vers un visuel réel du produit (ex. vignette
+   * fournisseur basse résolution). Si absent, ProductVisual affiche
+   * l'icône générique de secours.
+   */
+  image?: string;
 }
 
 export const CATEGORY_LABELS: Record<ProductCategory, string> = {

@@ -100,6 +100,8 @@ export default async function ProductPage({
         <ProductVisual
           category={product.category}
           accent={product.accent}
+          image={product.image}
+          alt={product.name}
           className="aspect-square w-full"
           iconSize={96}
         />
