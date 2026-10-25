@@ -31,11 +31,15 @@ export function Badge({
   );
 }
 
-/** Explicit "démonstration" marker for mock catalog data — never remove without real supplier data. */
+/**
+ * Marque qu'un produit est réel (sourcé chez un fournisseur, prix validé)
+ * mais que sa vraie photo n'est pas encore intégrée — ne jamais supprimer
+ * avant qu'une vraie image remplace le visuel générique de ProductVisual.
+ */
 export function DemoBadge({ className }: { className?: string }) {
   return (
     <Badge tone="demo" className={className}>
-      DEMO — produit fictif
+      Photo à venir
     </Badge>
   );
 }

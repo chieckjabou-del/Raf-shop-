@@ -50,9 +50,9 @@ export default function MentionsLegalesPage() {
           <h2 className="text-base font-semibold text-foreground">Propriété intellectuelle</h2>
           <p>
             L&apos;ensemble des contenus présents sur ce site (textes, visuels, logo) est la
-            propriété de RAF Shop, sauf mention contraire. Les images produit affichées sur
-            cette version de démonstration sont des visuels génériques et ne représentent pas
-            de vrais produits.
+            propriété de RAF Shop, sauf mention contraire. Les visuels produit affichés sont
+            des illustrations génériques en attendant l&apos;intégration des photos définitives
+            fournies par le fournisseur ; les produits eux-mêmes et leurs prix sont réels.
           </p>
         </section>
 

@@ -13,15 +13,20 @@ actuelle en boutique réellement opérationnelle. Organisée par priorité.
 
 ## Catalogue produit (pour chaque produit)
 
-- [ ] Nom du produit
+- [x] Nom du produit — 8 produits réels sourcés sur CJdropshipping et
+      intégrés le 25/10/2026 (voir `lib/products.ts`)
 - [ ] Photos (plusieurs angles, fond neutre de préférence — au minimum une
-      photo principale par produit)
+      photo principale par produit) — chaque fiche affiche encore un
+      visuel générique marqué « Photo à venir »
 - [x] Compte fournisseur CJdropshipping créé (`Agshop200@gmail.com`) —
-      25/10/2026. Prochaine étape : choisir les produits réels dans le
-      catalogue et transmettre capture d'écran + lien + prix fournisseur
-      pour chacun (voir GUIDE_DE_LANCEMENT.md).
-- [ ] Description et caractéristiques techniques précises
-- [ ] Prix de vente TTC
+      25/10/2026.
+- [ ] Description et caractéristiques techniques précises — seul le titre
+      de l'annonce fournisseur a été utilisé ; à compléter avant mise en
+      vente commerciale (voir « Caractéristiques détaillées » sur
+      chaque fiche produit)
+- [x] Prix de vente TTC — prix proposés automatiquement (conversion
+      USD→EUR + marge par défaut), **à valider ou ajuster** : voir le
+      tableau des 8 produits dans `lib/products.ts` (champ `priceCents`)
 - [ ] Transporteur et délai d'expédition utilisés par ce fournisseur
 - [ ] Garantie constructeur éventuelle, en plus de la garantie légale
 - [ ] Éco-participation applicable (obligatoire pour les produits

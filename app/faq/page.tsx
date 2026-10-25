@@ -35,7 +35,7 @@ const FAQ_ITEMS = [
   {
     question: "Les produits du catalogue sont-ils réels ?",
     answer:
-      "Pas encore : ce site est une version de démonstration. Le catalogue affiché est composé de produits fictifs clairement identifiés « DEMO », en attendant la validation du catalogue réel avec la fondatrice.",
+      "Oui : chaque produit du catalogue est sourcé chez un vrai fournisseur partenaire, avec un prix réel. Les photos définitives ne sont pas encore intégrées (chaque fiche l'indique avec la mention « Photo à venir »), et le paiement n'est pas encore activé sur cet environnement.",
   },
 ];
 

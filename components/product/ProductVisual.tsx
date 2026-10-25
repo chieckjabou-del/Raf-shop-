@@ -18,9 +18,11 @@ const CATEGORY_ICON: Record<ProductCategory, LucideIcon> = {
 };
 
 /**
- * Visuel produit DEMO — remplace une vraie photo produit tant qu'aucune
- * image fournisseur réelle n'est disponible. Voir GUIDE_DE_LANCEMENT.md
- * pour la procédure de remplacement par de vraies photos.
+ * Visuel générique — remplace une vraie photo produit tant qu'aucune
+ * image fournisseur réelle n'est intégrée. Les produits eux-mêmes
+ * peuvent être réels (sourcés, prix validé) même quand ce visuel
+ * s'affiche : voir GUIDE_DE_LANCEMENT.md pour la procédure de
+ * remplacement par de vraies photos.
  */
 export function ProductVisual({
   category,
@@ -57,7 +59,7 @@ export function ProductVisual({
         <Icon size={iconSize} color={accent} strokeWidth={1.4} />
       </div>
       <span className="absolute right-3 top-3 rounded-full bg-foreground px-2 py-0.5 text-[10px] font-semibold tracking-wide text-background">
-        DEMO
+        Photo à venir
       </span>
     </div>
   );

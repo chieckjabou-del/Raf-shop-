@@ -1,32 +1,44 @@
 import type { Product } from "./types";
 
 /**
- * DONNÉES DE DÉMONSTRATION — DEMO/MOCK
- * Aucun de ces produits, prix, stocks ou fournisseurs n'est réel.
- * À remplacer par le catalogue validé avant toute mise en production commerciale.
- * Voir GUIDE_DE_LANCEMENT.md pour la procédure de remplacement.
+ * CATALOGUE RÉEL — sourcé le 25/10/2026 sur le compte fournisseur
+ * CJdropshipping de la cliente (Agshop200@gmail.com), validé par elle
+ * produit par produit.
+ *
+ * Prix fournisseur convertis de l'USD à l'EUR (taux indicatif du
+ * 23/10/2026, 1 USD ≈ 0,89 EUR) puis majorés d'une marge proposée par
+ * défaut — à ajuster librement, voir GUIDE_DE_LANCEMENT.md section 3.
+ *
+ * ⚠️ VISUELS : aucune vraie photo produit n'est encore disponible (voir
+ * ProductVisual.tsx) — tant que ce n'est pas corrigé, chaque fiche
+ * affiche un visuel générique avec la mention "Photo à venir", jamais
+ * présenté comme une photo définitive.
+ *
+ * ⚠️ CARACTÉRISTIQUES : seules les informations confirmées par le titre
+ * de la fiche fournisseur sont indiquées. Les caractéristiques
+ * détaillées (poids, autonomie, puissance exacte...) doivent être
+ * vérifiées sur la fiche fournisseur avant mise en vente commerciale.
  */
 export const products: Product[] = [
   {
     slug: "chargeur-voyage-3-en-1",
-    name: "Chargeur MagSafe 3-en-1 Voyage",
-    tagline: "Trois appareils chargés, un seul câble, un seul geste.",
+    name: "Station de Charge Pliable 3-en-1",
+    tagline: "Un socle pliable et magnétique, pensé pour le voyage.",
     description:
-      "Un socle pliable qui charge téléphone, écouteurs et montre connectée simultanément. Pensé pour disparaître dans une trousse et se déplier en 2 secondes sur une table de chevet d'hôtel ou un bureau partagé.",
+      "Chargeur sans fil pliable 3-en-1, compatible charge magnétique. Se replie à plat pour se glisser dans un sac ou une valise cabine.",
     category: "productivite",
     priceCents: 4990,
     compareAtPriceCents: 6490,
     specs: [
-      { label: "Puissance", value: "15W (téléphone) / 5W (écouteurs et montre)" },
-      { label: "Poids", value: "142 g" },
-      { label: "Dimensions pliées", value: "9 × 9 × 2 cm" },
-      { label: "Compatibilité", value: "Charge sans fil Qi / MagSafe" },
+      { label: "Fournisseur", value: "CJdropshipping (expédition directe)" },
+      { label: "Référence fournisseur", value: "Station de charge sans fil magnétique pliable 3 en 1" },
       { label: "Garantie", value: "2 ans (garantie légale de conformité)" },
+      { label: "Caractéristiques détaillées", value: "À confirmer sur la fiche fournisseur avant mise en vente" },
     ],
     highlights: [
-      "Remplace 3 câbles par 1 seul socle",
-      "Se plie à plat pour le sac ou la valise cabine",
-      "Charge les 3 appareils en simultané, sans perte de vitesse notable",
+      "Format pliable, facile à emporter",
+      "Compatible charge magnétique",
+      "Garantie légale 2 ans",
     ],
     inStock: true,
     accent: "#2b6bff",
@@ -34,22 +46,21 @@ export const products: Product[] = [
   {
     slug: "enceinte-portable-etanche",
     name: "Enceinte Bluetooth Portable Étanche",
-    tagline: "Le son qui suit, même sous la pluie ou au bord de l'eau.",
+    tagline: "Le son qui suit, même en extérieur.",
     description:
-      "Certifiée IP67, cette enceinte compacte tient dans une main et délivre un son plein sur 12h d'autonomie. Conçue pour le balcon, la terrasse ou le sac de plage sans jamais craindre les éclaboussures.",
+      "Enceinte Bluetooth portable étanche, conçue pour un usage extérieur — terrasse, plage, balcon.",
     category: "audio-video",
-    priceCents: 5990,
+    priceCents: 4490,
     specs: [
-      { label: "Autonomie", value: "12 heures en usage continu" },
-      { label: "Étanchéité", value: "IP67 (immersion accidentelle jusqu'à 1 m)" },
-      { label: "Connectivité", value: "Bluetooth 5.3, portée 15 m" },
-      { label: "Poids", value: "310 g" },
+      { label: "Fournisseur", value: "CJdropshipping (expédition directe)" },
+      { label: "Référence fournisseur", value: "Outdoor Portable Waterproof Bluetooth Speaker" },
       { label: "Garantie", value: "2 ans (garantie légale de conformité)" },
+      { label: "Caractéristiques détaillées", value: "À confirmer sur la fiche fournisseur avant mise en vente" },
     ],
     highlights: [
-      "Résiste aux projections d'eau et à l'immersion accidentelle",
-      "12h d'autonomie, se recharge en USB-C",
-      "Appairage à deux enceintes pour un son stéréo",
+      "Conçue pour un usage extérieur",
+      "Étanche (waterproof)",
+      "Garantie légale 2 ans",
     ],
     inStock: true,
     accent: "#1e9bff",
@@ -57,141 +68,139 @@ export const products: Product[] = [
   {
     slug: "lampe-bureau-chargeur-induction",
     name: "Lampe de Bureau LED avec Chargeur Sans Fil",
-    tagline: "Éclaire le bureau, recharge le téléphone, une seule prise.",
+    tagline: "Éclaire le bureau, recharge le téléphone.",
     description:
-      "Une lampe à trois températures de lumière avec base de charge à induction intégrée. Le téléphone se recharge posé sous la lampe, sans câble qui traîne sur le bureau.",
+      "Lampe de bureau LED avec chargeur à induction intégré — le téléphone se recharge posé sous la lampe.",
     category: "productivite",
-    priceCents: 3990,
+    priceCents: 3290,
     specs: [
-      { label: "Températures de lumière", value: "3 réglages (chaud / neutre / froid)" },
-      { label: "Charge sans fil", value: "10W, compatible Qi" },
-      { label: "Variateur", value: "Tactile, 5 niveaux d'intensité" },
-      { label: "Alimentation", value: "Adaptateur secteur inclus" },
+      { label: "Fournisseur", value: "CJdropshipping (expédition directe)" },
+      { label: "Référence fournisseur", value: "Lampe de bureau intelligente LED avec chargeur sans fil" },
       { label: "Garantie", value: "2 ans (garantie légale de conformité)" },
+      { label: "Caractéristiques détaillées", value: "À confirmer sur la fiche fournisseur avant mise en vente" },
     ],
     highlights: [
-      "Supprime un câble et un chargeur du bureau",
-      "3 températures de lumière pour le travail ou la lecture",
-      "Bras articulé, s'oriente sans effort",
+      "Éclairage LED de bureau",
+      "Chargeur à induction intégré",
+      "Garantie légale 2 ans",
     ],
     inStock: true,
     accent: "#2b6bff",
   },
   {
     slug: "trepied-flexible-smartphone",
-    name: "Trépied Flexible pour Smartphone",
-    tagline: "Filme n'importe où, se fixe sur n'importe quoi.",
+    name: "Support Rotatif 360° pour Smartphone",
+    tagline: "Oriente ton téléphone dans tous les sens, sur ton bureau.",
     description:
-      "Pieds flexibles qui s'enroulent autour d'une rambarde, d'un vélo ou d'un pied de table. Pensé pour les créateurs de contenu qui filment en mobilité, sans installation ni réglage complexe.",
+      "Support de bureau rotatif à 360° pour smartphone — pratique pour visionner, filmer ou passer un appel mains libres.",
     category: "mobilite",
-    priceCents: 2490,
+    priceCents: 1990,
     specs: [
-      { label: "Hauteur", value: "20 cm (26 cm pieds dépliés)" },
-      { label: "Fixation", value: "Pince universelle 5,5 à 9 cm" },
-      { label: "Rotation", value: "360° avec tête à rotule" },
-      { label: "Poids supporté", value: "Jusqu'à 500 g" },
+      { label: "Fournisseur", value: "CJdropshipping (expédition directe)" },
+      { label: "Référence fournisseur", value: "Support de bureau rotatif à 360° pour téléphone portable" },
       { label: "Garantie", value: "2 ans (garantie légale de conformité)" },
+      { label: "Caractéristiques détaillées", value: "À confirmer sur la fiche fournisseur avant mise en vente" },
     ],
     highlights: [
-      "S'enroule et se fixe en quelques secondes, sans outil",
-      "Tient dans une poche de veste",
-      "Rotule 360° pour cadrer sous tous les angles",
+      "Rotation à 360°",
+      "Compact, pour bureau ou voiture",
+      "Garantie légale 2 ans",
     ],
     inStock: true,
     accent: "#7c5cff",
   },
   {
     slug: "clavier-mecanique-compact",
-    name: "Clavier Mécanique Compact Sans Fil",
-    tagline: "Le format d'un clavier portable, la frappe d'un clavier pro.",
+    name: "Clavier Sans Fil Tri-Mode Hot-Swap",
+    tagline: "Connexion tri-mode, switches remplaçables.",
     description:
-      "Format 75% pour gagner de la place sur le bureau sans sacrifier les touches de fonction. Trois profils Bluetooth mémorisés pour basculer entre ordinateur, tablette et téléphone.",
+      "Clavier sans fil tri-mode avec switches hot-swap (remplaçables sans soudure).",
     category: "productivite",
-    priceCents: 8990,
-    compareAtPriceCents: 10990,
+    priceCents: 7490,
+    compareAtPriceCents: 9490,
     specs: [
-      { label: "Format", value: "75% compact, rétroéclairé" },
-      { label: "Connectivité", value: "Bluetooth 5.1 (3 profils) + USB-C filaire" },
-      { label: "Autonomie", value: "Jusqu'à 200h (rétroéclairage éteint)" },
-      { label: "Switches", value: "Mécaniques, silencieux" },
+      { label: "Fournisseur", value: "CJdropshipping (expédition directe)" },
+      { label: "Référence fournisseur", value: "Full-key Hot Plug Wireless Three-mode Bluetooth Keyboard" },
       { label: "Garantie", value: "2 ans (garantie légale de conformité)" },
+      {
+        label: "Caractéristiques détaillées",
+        value: "À confirmer sur la fiche fournisseur avant mise en vente — switches mécaniques non garantis par le seul titre de l'annonce",
+      },
     ],
     highlights: [
-      "Bascule entre 3 appareils en une pression",
-      "Encombrement réduit de 30% vs un clavier standard",
-      "Switches silencieux, adapté à l'open space",
+      "Connexion tri-mode",
+      "Switches remplaçables (hot-swap)",
+      "Garantie légale 2 ans",
     ],
     inStock: true,
     accent: "#2b6bff",
   },
   {
     slug: "purificateur-air-portable",
-    name: "Purificateur d'Air Portable USB-C",
-    tagline: "Un air plus propre sur le bureau, sans installation.",
+    name: "Purificateur d'Air Portable à Ions Négatifs",
+    tagline: "Un air plus propre, où que vous soyez.",
     description:
-      "Format compact avec filtre HEPA, pensé pour un bureau ou une petite chambre. Se branche en USB-C, fonctionne sur batterie ou secteur, filtre renouvelable tous les 6 mois.",
+      "Purificateur d'air portable à génération d'ions négatifs, format compact.",
     category: "bien-etre",
-    priceCents: 5490,
+    priceCents: 3490,
     specs: [
-      { label: "Filtration", value: "Filtre HEPA H13" },
-      { label: "Surface conseillée", value: "Jusqu'à 15 m²" },
-      { label: "Niveau sonore", value: "28 à 45 dB selon vitesse" },
-      { label: "Alimentation", value: "USB-C, batterie 4h ou secteur continu" },
+      { label: "Fournisseur", value: "CJdropshipping (expédition directe)" },
+      { label: "Référence fournisseur", value: "Purificateur d'air portable à ions négatifs" },
       { label: "Garantie", value: "2 ans (garantie légale de conformité)" },
+      { label: "Caractéristiques détaillées", value: "À confirmer sur la fiche fournisseur avant mise en vente" },
     ],
     highlights: [
-      "Filtre HEPA H13, efficace sur particules fines",
-      "Fonctionne sur batterie, se déplace pièce à pièce",
-      "Niveau sonore compatible avec un usage en réunion",
+      "Génération d'ions négatifs",
+      "Format portable",
+      "Garantie légale 2 ans",
     ],
     inStock: true,
     accent: "#22c1c3",
   },
   {
     slug: "casque-reduction-bruit",
-    name: "Casque à Réduction de Bruit Active",
-    tagline: "Le silence à la demande, dans l'open space ou en avion.",
+    name: "Casque à Réduction de Bruit Active TWS",
+    tagline: "Le silence à la demande, en intra-auriculaire sans fil.",
     description:
-      "Réduction de bruit active sur 3 niveaux, mode transparence pour entendre son environnement sans retirer le casque, et 30h d'autonomie pour les trajets les plus longs.",
+      "Casque TWS sans fil à réduction de bruit active. Référence fournisseur : NB2.",
     category: "audio-video",
-    priceCents: 12990,
-    compareAtPriceCents: 15990,
+    priceCents: 14990,
+    compareAtPriceCents: 17990,
     specs: [
-      { label: "Réduction de bruit", value: "Active, 3 niveaux + mode transparence" },
-      { label: "Autonomie", value: "30h (ANC activée)" },
-      { label: "Charge rapide", value: "10 min = 4h d'écoute" },
-      { label: "Poids", value: "245 g" },
+      { label: "Fournisseur", value: "CJdropshipping (expédition directe)" },
+      { label: "Référence fournisseur", value: "Casque Bluetooth à réduction de bruit active TWS NB2" },
       { label: "Garantie", value: "2 ans (garantie légale de conformité)" },
+      { label: "Caractéristiques détaillées", value: "À confirmer sur la fiche fournisseur avant mise en vente" },
     ],
     highlights: [
-      "Coupe le bruit ambiant en open space ou en déplacement",
-      "Mode transparence pour rester joignable sans les retirer",
-      "30h d'autonomie, charge rapide 10 min = 4h",
+      "Réduction de bruit active",
+      "Format TWS sans fil",
+      "Garantie légale 2 ans",
     ],
     inStock: true,
     accent: "#7c5cff",
   },
   {
     slug: "mini-projecteur-portable",
-    name: "Mini Projecteur Portable Full HD",
-    tagline: "Un salon, un mur, une soirée film — sans installation.",
+    name: "Mini Projecteur Portable Full HD 1080p",
+    tagline: "Un film, un mur, aucune installation complexe.",
     description:
-      "Format valise miniature, projection Full HD jusqu'à 120 pouces, haut-parleur intégré. Se pose sur une table basse et se branche en HDMI ou en streaming direct depuis le téléphone.",
+      "Mini projecteur portable Full HD 1080p, format compact.",
     category: "audio-video",
-    priceCents: 17990,
+    priceCents: 6990,
+    compareAtPriceCents: 8990,
     specs: [
-      { label: "Résolution", value: "Full HD native 1080p" },
-      { label: "Taille de projection", value: "Jusqu'à 120 pouces" },
-      { label: "Connectivité", value: "HDMI, USB-C, Wi-Fi (cast)" },
-      { label: "Poids", value: "890 g" },
+      { label: "Fournisseur", value: "CJdropshipping (expédition directe)" },
+      { label: "Référence fournisseur", value: "Mini projecteur portable pour la maison, format 1080p HD" },
       { label: "Garantie", value: "2 ans (garantie légale de conformité)" },
+      { label: "Caractéristiques détaillées", value: "À confirmer sur la fiche fournisseur avant mise en vente" },
     ],
     highlights: [
-      "Installation en moins de 2 minutes, sans câblage complexe",
-      "Projection jusqu'à 120 pouces sur un mur blanc",
-      "Haut-parleur intégré, autonome sans enceinte externe",
+      "Résolution 1080p HD",
+      "Format compact portable",
+      "Garantie légale 2 ans",
     ],
-    inStock: false,
+    inStock: true,
     accent: "#1e9bff",
   },
 ];

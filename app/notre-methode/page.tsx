@@ -57,8 +57,9 @@ export default function MethodPage() {
       </div>
 
       <div className="mx-auto mt-12 max-w-2xl rounded-2xl border border-warning/30 bg-warning/10 p-5 text-sm text-warning">
-        Le catalogue actuel est un catalogue de démonstration : ces critères s&apos;appliqueront
-        au processus réel de sourcing, pas encore aux produits fictifs affichés aujourd&apos;hui.
+        Le catalogue actuel est composé de produits réels, sourcés chez un fournisseur partenaire
+        selon ces critères. Les photos définitives et les caractéristiques détaillées restent à
+        confirmer avant la mise en vente commerciale.
       </div>
 
       <div className="mt-10 text-center">
